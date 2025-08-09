@@ -11,3 +11,8 @@ func main() {
 
 	fmt.Println("A >= B :", result1)
 }
+
+
+Lenovo@DESKTOP-M5DT73G MINGW64 /d/Study/Golang/src/operators
+$ go run comparison.go 
+A >= B : true
