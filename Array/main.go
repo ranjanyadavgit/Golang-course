@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println("first elements: ", name[0])
 	fmt.Println("second elements:", name[1])
-
+	fmt.Println("Third elements:", name[2])
 }
 
 
@@ -23,3 +23,5 @@ $ go run main.go
 elements of array
 first elements:  Ranjan
 second elements: Yadav
+Third elements: Jim
+
