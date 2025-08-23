@@ -6,9 +6,9 @@ func main() {
 
 	var emptyMap = map[int]string{}
 
-	fmt.Println("empty string:", emptyMap)
+	fmt.Println("Empty Map:", emptyMap)
 
-	var value = map[int]string{
+	var myMap = map[int]string{
 
 		1: "ranjan",
 		2: "kumar",
@@ -16,13 +16,14 @@ func main() {
 		4: "bangalore",
 		5: "electronic city",
 	}
-	fmt.Println("value of map:", value)
-	fmt.Println("value of map:", value[2])
+	fmt.Println("value of myMap:", myMap)
+	fmt.Println("value of myMap:", myMap[2])
 }
+
 
 
 Lenovo@DESKTOP-M5DT73G MINGW64 /d/Study/Golang/src/maps
 $ go run main.go
-empty string: map[]
-value of map: map[1:ranjan 2:kumar 3:yadav 4:bangalore 5:electronic city]
-value of map: kumar
+Empty Map: map[]
+value of myMap: map[1:ranjan 2:kumar 3:yadav 4:bangalore 5:electronic city]
+value of myMap: kumar
