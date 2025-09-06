@@ -22,3 +22,10 @@ func main(){
     }
   result.show()
   }
+
+-------------------
+Lenovo@DESKTOP-M5DT73G MINGW64 /d/Study/Golang/src/struct
+$ go run 4main.go 
+Author name: Ranjan
+Branch name: CSE
+Salary name: 20000
